@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Escola Sunnydale</title>
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+
+    <style>
+
+        @import url('https://fonts.cdnfonts.com/css/poppins');
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #ffe5f0;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            line-height: 1.6;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ff008c;
+            text-align: center;
+            margin: 30px 0 10px 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #ff008c;
+            margin-top: 30px;
+            border-left: 5px solid #ff008c;
+            padding-left: 10px;
+        }
+
+        #upcoming-events {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 25px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            margin-top: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            background-color: #ffd4e6;
+            padding: 8px;
+            border-radius: 10px;
+            transition: 0.2s;
+        }
+
+        li:hover {
+            background-color: #c40152;
+        }
+
+        .outdoor {
+            background-color: #ff92bf;
+            border: 1px solid #ff92bf;
+        }
+
+        /* datas destacadas */
+        .date {
+            font-weight: bold;
+            color: #a70140;
+        }
+
+        /* Seção de contato */
+        .section {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 25px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .centro{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Escola Sunnydale 🏫</h1>
+
+<div class="container">
+
+    <p style="text-align:center; font-size:20px;">
+        <b>Bem-vindo à Escola Sunnydale, dedicada a cultivar o amor pelo aprendizado em cada aluno.</b>
+    </p>
+
+    <!-- Missão -->
+    <h2 id="mission-statement">Declaração de Missão 🪽</h2>
+    <p class="centro">
+        Nossa missão é proporcionar uma educação de qualidade que prepare todas as crianças
+        para um futuro de sucesso.
+    </p>
+
+    <!-- Eventos -->
+    <h2>Próximos Eventos 🎊</h2>
+    <div id="upcoming-events">
+        <ul>
+            <li data-event-type="indoor" title="Tipo de Evento: Interno">
+                Feira de Ciências – <span class="date">10 de junho</span>
+            </li>
+
+            <li class="outdoor" data-event-type="outdoor" title="Tipo de Evento: Ao Ar Livre">
+                Exposição de Arte – <span class="date">15 de junho</span>
+            </li>
+
+            <li class="outdoor" data-event-type="outdoor" title="Tipo de Evento: Ao Ar Livre">
+                Dia de Esportes – <span class="date">20 de junho</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Contato -->
+    <div class="section">
+        <h2 id="contact">Fale Conosco 🗣️</h2>
+
+        <p title="Clique para copiar o e-mail">📧 E-mail: info@sunnydaleschool.com</p>
+        <p title="Clique para copiar o telefone">📞 Telefone: 555-1234</p>
+    </div>
+
+</div>
+
+</body>
+</html>
